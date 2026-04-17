@@ -1,0 +1,183 @@
+{
+  "channels": [],
+  "categories": [
+    {
+      "id": "health",
+      "name": "Здоровье",
+      "icon": "health.png",
+      "show_on_main": true
+    },
+    {
+      "id": "sport",
+      "name": "Спорт",
+      "icon": "sport.png",
+      "show_on_main": true
+    },
+    {
+      "id": "support_army",
+      "name": "Поддержка военных",
+      "icon": "military.png",
+      "show_on_main": true
+    },
+    {
+      "id": "support_citizen",
+      "name": "Поддержка граждан",
+      "icon": "support_citizens.png"
+    },
+    {
+      "id": "services",
+      "name": "Услуги",
+      "icon": "services.png"
+    }
+  ],
+  "services": [
+    {
+      "id": "bot-1-500",
+      "name": "Чат бот для записи к врачу 1-500",
+      "description": "С помощью этого бота вы можете записаться на прием к врачу",
+      "icon": "bot-1-500.png",
+      "owner": "Минздрав ДНР",
+      "type": "chatbot",
+      "tags": [
+        "здоровье"
+      ],
+      "category_ids": [
+        "health"
+      ],
+      "link": "https://max.ru/miac_dnr_bot"
+    },
+    {
+      "id": "bot-lgotnie_lekarstva",
+      "name": "Заказ льготных лекарств ДНР",
+      "description": "Заказ льготных лекарств и консультация по медицинскому оборудованию",
+      "icon": "bot-lgotnie_lekarstva.png",
+      "owner": "Минздрав ДНР",
+      "type": "chatbot",
+      "tags": [
+        "здоровье"
+      ],
+      "category_ids": [
+        "health"
+      ],
+      "link": "https://max.ru/lgotnie_lekarstva_dnr_bot"
+    },
+    {
+      "id": "bot-mfc-dnr",
+      "name": "Чат бот МФЦ ДНР",
+      "description": "Официальный чат-бот МФЦ ДНР. С его помощью можно узнать статус обращения, записаться в офисы МФЦ или отменить запись, а также получить информацию об адресах и режимах работы офисов МФЦ.",
+      "icon": "bot-mfc.png",
+      "type": "chatbot",
+      "owner": "МФЦ ДНР",
+      "tags": [
+        "услуги"
+      ],
+      "category_ids": [
+        "services"
+      ],
+      "link": "https://max.ru/mfc_dnr_max_bot"
+    },
+    {
+      "id": "bot-post_donbass",
+      "name": "Чат бот Почты Донбасса",
+      "description": "Чат-бот «Почты Донбасса» позволяет в удобной форме и в режиме 24/7: отследить почтовое отправление // найти отделение почтовой связи по индексу // задать вопрос руководству предприятия.",
+      "icon": "bot-post_donbass.png",
+      "type": "chatbot",
+      "owner": "Почта Донбасса",
+      "tags": [
+        "услуги"
+      ],
+      "category_ids": [
+        "services"
+      ],
+      "link": "https://max.ru/postdon_bot"
+    },
+    {
+      "id": "bot-minsport_dnr",
+      "name": "Чат бот минспорта ДНР",
+      "description": "Чат-бот создан в помощь жителям и гостям ДНР для поиска информации о работе спортивных учреждений, а также для мониторинга удовлетворенности населения работой Министерства спорта и туризма ДНР.",
+      "icon": "bot-minsport.png",
+      "owner": "Минспорт ДНР",
+      "type": "chatbot",
+      "tags": [
+        "Спорт"
+      ],
+      "category_ids": [
+        "sport"
+      ],
+      "link": "https://max.ru/minsport_dpr_helper_bot"
+    },
+    {
+      "id": "bot-komuslugi-dnr",
+      "name": "Комуслуги ДНР",
+      "description": "Бот для работы с сайтом https://komuslugi-dn.ru",
+      "icon": "bot-komuslugi_dnr.png",
+      "owner": "Вода Донбасса",
+      "type": "chatbot",
+      "tags": [
+        "услуги",
+        "вода"
+      ],
+      "category_ids": [
+        "services"
+      ],
+      "link": "https://max.ru/id237403175201_1_bot"
+    },
+    {
+      "id": "bot-svo_dnr",
+      "name": "Поддержка участников СВО в ДНР",
+      "description": "С помощью этого чат-бота участники СВО и члены их семей могут узнать о льготах и мерах поддержки, действующих в ДНР, и получить контакты организаций, оказывающих помощь в адаптации и социализации.",
+      "icon": "bot-svo_dnr.png",
+      "owner": "АГП ДНР",
+      "type": "chatbot",
+      "tags": [
+        "Поддержка военных"
+      ],
+      "category_ids": [
+        "support_army"
+      ],
+      "link": "https://max.ru/svo_dnr_bot"
+    },
+    {
+      "id": "bot-donbass_vmeste",
+      "name": "Прямая связь с главой ДНР",
+      "description": "Через данный чат-бот жители Республики могут направлять вопросы на прямой эфир Главы ДНР и предложения по развитию региона",
+      "icon": "bot-donbass_vmeste.png",
+      "owner": "АГП ДНР",
+      "type": "chatbot",
+      "link": "https://max.ru/donbass_vmeste_bot",
+      "tags": [
+        "Поддержка граждан"
+      ],
+      "category_ids": [
+        "support_citizen"
+      ]
+    }
+  ],
+  "support": {
+    "chatbot": {
+      "name": "Чат-бот поддержки",
+      "description": "Автоматическое решение вопросов круглосуточно",
+      "link": "https://max.ru/donbass_vmeste_bot"
+    },
+    "operator": {
+      "name": "Чат с оператором",
+      "description": "Задайте вопрос и получите ответ в течение 24 часов",
+      "link": "https://max.ru/u/f9LHodD0cOLLXsWDCfB-dyBe96Nd3lXHLH_MDsSWYJJJPIzfeQ2tJph3Cck"
+    },
+    "techSupport": {
+      "name": "Форма обращения",
+      "description": "Отправьте свой вопрос в поддержку",
+      "link": "https://denis-pushilin.ru/obrashheniya/?ysclid=mo03izmxhh653272233"
+    }
+  },
+  "analytics": {
+    "mytracker": {
+      "enabled": true,
+      "trackerId": "3755075"
+    },
+    "yandexMetrika": {
+      "enabled": true,
+      "counterId": "85500886"
+    }
+  }
+}
