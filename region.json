@@ -154,20 +154,10 @@
     }
   ],
   "support": {
-    "chatbot": {
-      "name": "Чат-бот поддержки",
-      "description": "Автоматическое решение вопросов круглосуточно",
-      "link": "https://max.ru/donbass_vmeste_bot"
-    },
     "operator": {
       "name": "Чат с оператором",
       "description": "Задайте вопрос и получите ответ в течение 24 часов",
       "link": "https://max.ru/u/f9LHodD0cOLLXsWDCfB-dyBe96Nd3lXHLH_MDsSWYJJJPIzfeQ2tJph3Cck"
-    },
-    "techSupport": {
-      "name": "Форма обращения",
-      "description": "Отправьте свой вопрос в поддержку",
-      "link": "https://denis-pushilin.ru/obrashheniya/?ysclid=mo03izmxhh653272233"
     }
   },
   "analytics": {
