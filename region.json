@@ -221,6 +221,11 @@
       "name": "Поддержка ветеранов",
       "icon": "podderzhka_veteranov.png",
       "show_on_main": true
+    },
+    {
+      "id": "support_citizen",
+      "name": "Чат бот Главы ДНР",
+      "icon": "support_citizen.png"
     }
   ],
   "channels": [],
@@ -295,9 +300,30 @@
       "id": "podderzhka_veteranov",
       "name": "Поддержка ветеранов",
       "icon": "podderzhka_veteranov.png"
+    },
+    
+    {
+      "id": "support_citizen",
+      "name": "Чат бот Главы ДНР",
+      "icon": "support_citizen.png"
     }
   ],
   "services": [
+    {
+      "id": "bot-donbass_vmeste",
+      "name": "Прямая связь с главой ДНР",
+      "description": "Через данный чат-бот жители Республики могут направлять вопросы на прямой эфир Главы ДНР и предложения по развитию региона",
+      "icon": "bot-donbass_vmeste.png",
+      "owner": "АГП ДНР",
+      "type": "chatbot",
+      "link": "https://max.ru/donbass_vmeste_bot",
+      "tags": [
+        "Поддержка граждан"
+      ],
+      "category_ids": [
+        "support_citizen"
+      ]
+    },
     {
       "id": "bot-1-500",
       "name": "Чат бот для записи к врачу 1-500",
@@ -405,19 +431,19 @@
       "link": "https://max.ru/svo_dnr_bot"
     },
     {
-      "id": "bot-donbass_vmeste",
-      "name": "Прямая связь с главой ДНР",
-      "description": "Через данный чат-бот жители Республики могут направлять вопросы на прямой эфир Главы ДНР и предложения по развитию региона",
-      "icon": "bot-donbass_vmeste.png",
-      "owner": "АГП ДНР",
+      "id": "bot-phoenix_dnr",
+      "name": "Мой Феникс",
+      "description": "Бот самообслуживания абонентов ГУП ДНР «РОС». Проверка тарифов. Проверка состояния лицевого счета. Обращение в службу поддержки.",
+      "icon": "bot-svo_dnr.png",
+      "owner": "Феникс",
       "type": "chatbot",
-      "link": "https://max.ru/donbass_vmeste_bot",
       "tags": [
-        "Поддержка граждан"
+        "услуги"
       ],
       "category_ids": [
         "services"
-      ]
+      ],
+      "link": "https://max.ru/myphoenix_bot"
     },
     {
       "id": "channel-mchs-dnr",
