@@ -208,8 +208,7 @@
     {
       "id": "support_army",
       "name": "Поддержка военных",
-      "icon": "military.png",
-      "show_on_main": true
+      "icon": "military.png"
     },
     {
       "id": "services",
